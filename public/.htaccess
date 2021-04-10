@@ -1,0 +1,8 @@
+    Options -MultiViews
+    RewriteEngine On
+    RewriteCond %{SERVER_PORT} 80
+    RewriteCond %{HTTP_HOST} ^(www\.)?allcitysewerrepair\.com
+    RewriteRule ^(.*)$ https://www.allcitysewerrepair.com/$1 [R,L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.html [QSA,L]
+    
