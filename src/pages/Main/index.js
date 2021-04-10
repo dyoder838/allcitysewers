@@ -138,12 +138,12 @@ export default function MainPage() {
                 <div className={CustomStyles.root}>
                     <Nav />
                     <div className={CustomStyles.text}>
-                        <Typography variant="h3">It's Time To Start Cleaning</Typography>
+                        <Typography variant="h3">Slogan goes here</Typography>
                         <Typography variant="h4">Thorough. Efficient. Clean.</Typography>
                         <Typography variant="h5">Call for a Consultation</Typography>
-                        <Typography component="a" color='inherit' variant="h5" href="tel:18883700123">1 (888) 370-0123</Typography>
+                        <Typography component="a" color='inherit' variant="h5" href="tel:+12065663528">1 (206) 566 3528</Typography>
                         <Typography variant="h5">Or Text Us At</Typography>
-                        <Typography component="a" color='inherit' variant="h5" href="sms:+14255510181">1 (425) 551-0181</Typography>
+                        <Typography component="a" color='inherit' variant="h5" href="sms:+12065663528">1 (206) 566 3528</Typography>
                     </div>
                 </div>
             </Grid>
@@ -154,7 +154,7 @@ export default function MainPage() {
 
                     <div className={classes.articleHeader} >
 
-                        <Typography variant="h4">Serving: King, Snohomish, and Skagit Counties</Typography>
+                        <Typography variant="h4">Serving: Seattle, Tacoma, and Everett areas</Typography>
 
                     </div>
 
