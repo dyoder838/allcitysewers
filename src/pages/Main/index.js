@@ -12,9 +12,9 @@ import Nav from '../../components/Nav';
 import CustomStyles from './style.module.css';
 import Footer from '../../components/Footer';
 import ReviewCard from '../../components/ReviewCard'
-import Art1Image from '../../assets/gloves.jpg';
-import ArtImage2 from '../../assets/open.jpg';
-import ArtImage3 from '../../assets/pride.jpg';
+import ArtImage1 from '../../assets/plumbingTools.jpg';
+import ArtImage2 from '../../assets/sewerPipe.jpg';
+import ArtImage3 from '../../assets/drainField.jpg';
 import YelpDB from '../../YelpDB.json';
 
 const theme = createMuiTheme();
@@ -178,8 +178,8 @@ export default function MainPage() {
 
                             <CardMedia
                                 className={classes.media1}
-                                image={Art1Image}
-                                title="Cleaning with elbow-grease"
+                                image={ArtImage1}
+                                title="Using Plumbing Tools"
                             />
 
                             <CardContent className={classes.font}>
@@ -222,7 +222,7 @@ export default function MainPage() {
                             <CardMedia
                                 className={classes.media2}
                                 image={ArtImage2}
-                                title="Cleaning in progress"
+                                title="Worker looking down a long sewer pipe"
                             />
 
                             <CardContent>
