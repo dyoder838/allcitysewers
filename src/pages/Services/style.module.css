@@ -16,14 +16,7 @@ body {
     background-size: cover;
     background-position: center;     
 }
-.textbox {
-    border: none;
-    position: relative;
-    width: 100%;
-    top: 10%;
-    background: transparent;
-    z-index: 1; 
-}
+
 .text {
     position: absolute;
     top: 40%;
@@ -31,6 +24,7 @@ body {
     margin-right: -50%;
     transform: translate(-50%, -50%);
     background: rgba(0,0,0, 0.4);
+    padding: 10px;
     text-align: center;
     color: white;
     font-weight: bold;  
