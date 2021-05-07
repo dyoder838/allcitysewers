@@ -7,7 +7,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 import Menu from '@material-ui/core/Menu';
 import MenuIcon from '@material-ui/icons/Menu';
 import Button from '@material-ui/core/Button';
-import Logo from '../../assets/SCLogo.png';
+// import Logo from '../../assets/SCLogo.png';
 
 const useStyles = makeStyles((theme) => ({
     grow: {
@@ -111,11 +111,11 @@ export default function PrimarySearchAppBar() {
 
             <AppBar className={classes.appBar}>
 
-                <div className={classes.logoPos}>
+                {/* <div className={classes.logoPos}>
 
                     <img src={Logo} alt="Start Cleaning logo" className={classes.logo} />
 
-                </div>
+                </div> */}
 
                 <Toolbar className={classes.toolbar}>
 
