@@ -14,7 +14,7 @@ import Footer from '../../components/Footer';
 import ReviewCard from '../../components/ReviewCard'
 import ArtImage1 from '../../assets/plumbingTools.jpg';
 import ArtImage2 from '../../assets/sewerPipe.jpg';
-import ArtImage3 from '../../assets/drainField.jpg';
+import ArtImage3 from '../../assets/BrokenPipe.jpg';
 import YelpDB from '../../YelpDB.json';
 
 const theme = createMuiTheme();
@@ -138,8 +138,8 @@ export default function MainPage() {
                 <div className={CustomStyles.root}>
                     <Nav />
                     <div className={CustomStyles.text}>
-                        <Typography variant="h3">Slogan goes here</Typography>
-                        <Typography variant="h4">Thorough. Efficient. Clean.</Typography>
+                        <Typography variant="h3">All City Sewer Repair</Typography>
+                        <Typography variant="h4"></Typography>
                         <Typography variant="h5">Call for a Consultation</Typography>
                         <Typography component="a" color='inherit' variant="h5" href="tel:+12065663528">1 (206) 566 3528</Typography>
                         <Typography variant="h5">Or Text Us At</Typography>
@@ -159,15 +159,15 @@ export default function MainPage() {
                     </div>
 
                 </Grid>
-                <Grid item xs={12} className={classes.covidContainer} >
+                {/* <Grid item xs={12} className={classes.covidContainer} >
 
                     <div className={classes.covid} >
 
-                        <Typography variant="h5">COVID-19: We take the pandemic seriously and we follow all state and local guidelines to operate safely in your home or office.</Typography>
+                        <Typography variant="h5">We take Covid-19 serious and provide all PPE to our technicians.</Typography>
 
                     </div>
 
-                </Grid>
+                </Grid> */}
 
 
                 <Grid item xs={12} md={6} lg={6} className={classes.article1}>
@@ -190,10 +190,9 @@ export default function MainPage() {
 
                                 <ThemeProvider theme={theme}>
                                     <Typography variant="body2" color="textSecondary" component="p">
-                                        We offer Commercial and residential cleaning services including:
-                                        Move in and out, Recurring cleaning, and "I need a break" cleaning.
+                                    We specialize in sewer repairs, trench-less systems, drain lines, drain cleaning, sewer backups, emergency calls, sewer inspections and free estimates.
                                     <br />
-                                    follow the link below for more specific details.
+                                    follow the link below for details.
                                 </Typography>
                                 </ThemeProvider>
 
@@ -235,9 +234,11 @@ export default function MainPage() {
                                     <Typography variant="body2" color="textSecondary" component="p">
                                         Monday - Friday
                                         <br />
-                                        8:00 AM - 5:00 PM
+                                        6:00 AM - 8:00 PM
                                         <br />
-                                        Special hours and days are possible upon request
+                                        Saturday - Sunday
+                                        <br />
+                                        8:00 AM - 5:00 PM
                                     </Typography>
                                 </ThemeProvider>
 
@@ -265,7 +266,7 @@ export default function MainPage() {
                             <CardMedia
                                 className={classes.media3}
                                 image={ArtImage3}
-                                title="Cleaning in progress"
+                                title="Broken sewer line"
                             />
 
                             <CardContent>
@@ -276,9 +277,9 @@ export default function MainPage() {
 
                                 <ThemeProvider theme={theme}>
                                     <Typography variant="body2" color="textSecondary" component="p">
-                                        We at Start Cleaning pride ourselves on offering quality work at a fair price. Since our beginning, our main goal has been to exceed the expectations of every client by cleaning your home or office as if it were our own.
-                                    <br />
-                                    Our team of seasoned professionals will clean your home to your exact specifications. For your home, we bring all of our own equipment and eco-friendly cleaning products.
+                                        We take great pride in our work and back our sewer and drain repairs with a 10 year warranty. 
+                                        <br />
+                                        We are a highly skilled team with a low over head and we are typically able to beat our competitors prices - give us a call for an estimate. 
                                     </Typography>
                                 </ThemeProvider>
 
@@ -289,12 +290,12 @@ export default function MainPage() {
 
                         <CardActions className={classes.buttonBox}>
 
-                            <Button className={classes.button} size="small" href="tel:+18883700123" >
+                            <Button className={classes.button} size="small" href="tel:+12065663528" >
                                 Call
                             </Button>
-                            <Button className={classes.button} size="small" href="sms:+14255510181" >
+                            {/* <Button className={classes.button} size="small" href="sms:+12065663528" >
                                 Text
-                            </Button>
+                            </Button> */}
 
                         </CardActions>
 
