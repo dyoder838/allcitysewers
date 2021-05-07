@@ -2,7 +2,7 @@
 
     {
         "id": 0, 
-        "title": "Standard Services",
+        "title": "Inspections",
         "rooms": 
             [
                 {
@@ -51,7 +51,7 @@
     },
     {
         "id": 1, 
-        "title": "Deep Cleaning",
+        "title": "Repairs",
         "rooms": 
             [
                 {
@@ -89,7 +89,7 @@
     },
     {
         "id": 1, 
-        "title": "Move In / Move Out",
+        "title": "Trench-less",
         "rooms": 
             [
                 {
@@ -135,7 +135,7 @@
     },
     {
         "id": 1, 
-        "title": "Extra Services",
+        "title": "Emergency Service",
         "rooms": 
             [
                 {

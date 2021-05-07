@@ -48,8 +48,8 @@ export default function MainPage() {
                     <Nav />
 
                     <div className={CustomStyles.text}>
-                        <Typography variant="h3">Slogan goes here</Typography>
-                        <Typography variant="h4">Thorough. Efficient. Clean.</Typography>
+                        <Typography variant="h3">All City Sewer Repair</Typography>
+                        <Typography variant="h4"></Typography>
                         <Typography variant="h5">Call for a Consultation</Typography>
                         <Typography component="a" color='inherit' variant="h5" href="tel:+12065663528">1 (206) 566 3528</Typography>
                         <Typography variant="h5">Or Text Us At</Typography>
@@ -66,7 +66,7 @@ export default function MainPage() {
                     Our Services 
                 </Typography>
                 <Typography className={classes.headersubtext}>
-                    In all of our services we are dedicated to provide a thorough efficient clean. We can also accommodate extra services for more specific needs. 
+                     
                 </Typography>
 
             </Grid>
