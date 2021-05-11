@@ -7,44 +7,9 @@
             [
                 {
                     "id": 0,
-                    "title": "Kitchen",
+                    "title": "Trenchless",
                     "services": [
-                        "Dusting horizontal surfaces, décor and appliances",
-                        "Cleaning the Exterior of major appliances (Microwave, Refrigerator, Oven)",
-                        "Cleaning exterior of cabinets",
-                        "Cleaning counter tops",
-                        "Cleaning sinks and faucets",
-                        "Cleaning floors (Vacuum / Sweep / Mop)"
-                    ]
-                }, 
-                {
-                    "id": 1,
-                    "title": "Living/Family/Dining Room",
-                    "services":[
-                        "Dusting horizontal surfaces and décor",
-                        "Cleaning furniture surfaces (dust / vacuum)",
-                        "Cleaning floors (Vacuum / Sweep / Mop)"
-                    ]
-                },
-                {
-                    "id": 2, 
-                    "title": "Bathrooms",
-                    "services": [
-                        "Dusting horizontal surfaces and counter tops",
-                        "Cleaning mirrors and sinks",
-                        "Cleaning tubs and showers (including shower doors)",
-                        "Cleaning toilets (in, around, and behind)",
-                        "Cleaning floors and bathmats (Vacuum / Sweep / Mop)"
-                    ]
-                }, 
-                {
-                    "id": 3,
-                    "title": "Bedrooms",
-                    "services": [
-                        "Dusting horizontal surfaces",
-                        "Dusting decor and appliances",
-                        "Cleaning mirrors",
-                        "Cleaning Floors (Vacuum / Sweep / Mop)"
+                       "We use state of the art scoping equipment to visually inspect pipes and sewer lines, saving thousands of dollars on needless digging."
                     ]
                 }
             ]
@@ -56,79 +21,24 @@
             [
                 {
                     "id": 0,
-                    "title": "Kitchen",
+                    "title": "Trenchless",
                     "services": [
-                        "Deep cleaning stainless steel surfaces", 
-                        "Deep Cleaning Glass Top stove surface"
+                        "We install Liners into the Sewer lines to repair offsets and root intrusions.",
+                        "We pipe burst sewer lines - starting from one access point to the next."
                     ]
-                }, 
-                {
-                    "id": 1,
-                    "title": "Living/Family/Dining Room",
-                    "services":[
-                        "Sanitizing door knobs and light switches",  
-                        "Cleaning under sofa cushions"
-                    ]
-                },
-                {
-                    "id": 2, 
-                    "title": "Bathrooms",
-                    "services": [
-                        "Sanitizing door knobs and light switches"
-                    ]
-                }, 
-                {
-                    "id": 3,
-                    "title": "Bedrooms",
-                    "services": [
-                        "Sanitizing door knobs and light switches",
-                        "Cleaning under sofa cushions"
-                    ]
-                }
+                }  
             ]
     },
     {
         "id": 1, 
-        "title": "Trench-less",
+        "title": "Drain Cleaning",
         "rooms": 
             [
                 {
                     "id": 0,
-                    "title": "Kitchen",
+                    "title": "Hydro-Jet",
                     "services": [
-                        "Dusting horizontal surfaces, décor and appliances",
-                        "Cleaning the Exterior of major appliances (Microwave, Refrigerator, Oven)",
-                        "Cleaning exterior of cabinets",
-                        "Cleaning counter tops",
-                        "Cleaning sinks and faucets",
-                        "Cleaning floors (Vacuum / Sweep / Mop)"
-                    ]
-                }, 
-                {
-                    "id": 1,
-                    "title": "Living/Family/Dining Room",
-                    "services":[
-                        "Dusting horizontal surfaces and décor",
-                        "Cleaning floors (Vacuum / Sweep / Mop)"
-                    ]
-                },
-                {
-                    "id": 2, 
-                    "title": "Bathrooms",
-                    "services": [ 
-                        "Dusting horizontal surfaces and counter tops",
-                        "Cleaning mirrors and sinks",
-                        "Cleaning tubs and showers (including shower doors)",
-                        "Cleaning toilets (in, around, and behind)",
-                        "Cleaning floors and bathmats (Vacuum / Sweep / Mop)"
-                    ]
-                }, 
-                {
-                    "id": 3,
-                    "title": "Bedrooms",
-                    "services": [
-                        "Dusting horizontal surfaces",
-                        "Cleaning Floors (Vacuum / Sweep / Mop)"
+                        "we use high power water jets to clean a multitude of different piping systems"
                     ]
                 }
             ]
@@ -140,38 +50,11 @@
             [
                 {
                     "id": 0,
-                    "title": "Kitchen",
+                    "title": "we are available 24-7",
                     "services": [
-                        "Cleaning the interior of major appliances (Microwave, Refrigerator, Oven)", 
-                        "Trash and Recycling removal"
+                        "We can provide emergency services for any situation, day or night."
                     ]
-                }, 
-                {
-                    "id": 1,
-                    "title": "Living/Family/Dining Room",
-                    "services":[
-                        "Washing interior windows",
-                        "Polishing tables"
-                    ]
-                },
-                {
-                    "id": 2, 
-                    "title": "Bathrooms",
-                    "services": [
-                        "Polishing chrome and metal surfaces", 
-                        "Polishing / Scrubbing walls for watermarks", 
-                        "Washing internal windows"
-                    ]
-                }, 
-                {
-                    "id": 3,
-                    "title": "Bedrooms",
-                    "services": [
-                        "Polishing bedroom furniture", 
-                        "Making beds", 
-                        "Washing interior windows"
-                    ]
-                }
+                } 
             ]
     }
 ]
