@@ -138,7 +138,7 @@ export default function MainPage() {
                 <div className={CustomStyles.root}>
                     <Nav />
                     <div className={CustomStyles.text}>
-                        <Typography variant="h3">All City Sewer Repair</Typography>
+                        <Typography variant="h3">All City Sewer Repair LLC.</Typography>
                         <Typography variant="h4"></Typography>
                         <Typography variant="h5">Call for a Consultation</Typography>
                         <Typography component="a" color='inherit' variant="h5" href="tel:+12065663528">1 (206) 566 3528</Typography>
