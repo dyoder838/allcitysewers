@@ -7,7 +7,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 import Menu from '@material-ui/core/Menu';
 import MenuIcon from '@material-ui/icons/Menu';
 import Button from '@material-ui/core/Button';
-// import Logo from '../../assets/SCLogo.png';
+// import Logo from '../../assets/acsrlogo1.jpg';
 
 const useStyles = makeStyles((theme) => ({
     grow: {
