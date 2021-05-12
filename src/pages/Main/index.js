@@ -9,6 +9,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Nav from '../../components/Nav';
+import SplashText from '../../components/SplashText'
 import CustomStyles from './style.module.css';
 import Footer from '../../components/Footer';
 import ReviewCard from '../../components/ReviewCard'
@@ -20,7 +21,7 @@ import YelpDB from '../../YelpDB.json';
 const theme = createMuiTheme();
 
 theme.typography.body2 = {
-    fontSize: '2rem',
+    fontSize: '1.75rem',
     '@media (min-width:600px)': {
         fontSize: '2rem',
     },
@@ -29,7 +30,7 @@ theme.typography.body2 = {
     },
 };
 theme.typography.h5 = {
-    fontSize: '2rem',
+    fontSize: '1.75rem',
     fontWeight: "bold",
     '@media (min-width:600px)': {
         fontSize: '2rem',
@@ -137,14 +138,7 @@ export default function MainPage() {
             <Grid item xs={12}>
                 <div className={CustomStyles.root}>
                     <Nav />
-                    <div className={CustomStyles.text}>
-                        <Typography variant="h3">All City Sewer Repair LLC.</Typography>
-                        <Typography variant="h4"></Typography>
-                        <Typography variant="h5">Call for a Consultation</Typography>
-                        <Typography component="a" color='inherit' variant="h5" href="tel:+12065663528">1 (206) 566 3528</Typography>
-                        <Typography variant="h5">Or Text Us At</Typography>
-                        <Typography component="a" color='inherit' variant="h5" href="sms:+12065663528">1 (206) 566 3528</Typography>
-                    </div>
+                    <SplashText />
                 </div>
             </Grid>
 

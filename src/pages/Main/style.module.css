@@ -17,18 +17,6 @@ body {
     background-position: center;       
 }
 
-.text {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    background: rgba(0,0,0, 0.4);
-    padding: 10px;
-    text-align: center;
-    color: white;
-    font-weight: bold;   
-}
-a:link {
-    text-decoration: none;
+div p {
+    font-size: 30px;
 }
