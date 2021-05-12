@@ -4,6 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import CustomStyles from './style.module.css';
 import Typography from '@material-ui/core/Typography';
 import Nav from '../../components/Nav';
+import SplashText from '../../components/SplashText'
 import Accordion from '../../components/Accordion2';
 import Footer from '../../components/Footer';
 import AccordionDb from '../../Accordion2.json';
@@ -46,16 +47,7 @@ export default function MainPage() {
                 <div className={CustomStyles.root}>
 
                     <Nav />
-
-                    <div className={CustomStyles.text}>
-                        <Typography variant="h3">All City Sewer Repair LLC.</Typography>
-                        <Typography variant="h4"></Typography>
-                        <Typography variant="h5">Call for a Consultation</Typography>
-                        <Typography component="a" color='inherit' variant="h5" href="tel:+12065663528">1 (206) 566 3528</Typography>
-                        <Typography variant="h5">Or Text Us At</Typography>
-                        <Typography component="a" color='inherit' variant="h5" href="sms:+12065663528">1 (206) 566 3528</Typography>
-                    </div>
-
+                    <SplashText />
                 </div>
 
             </Grid>
