@@ -121,6 +121,7 @@ const useStyles = makeStyles((theme) => ({
     button: {
         margin: 'auto',
         fontWeight: 'bold',
+        fontSize: 20
     },
 
 

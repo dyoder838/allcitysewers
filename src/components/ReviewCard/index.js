@@ -13,7 +13,7 @@ const useStyles = makeStyles({
   root: {
     minWidth: 275,
     minHeight: 480,
-    maxHeight: 800, 
+    maxHeight: 870, 
     background: "rgba(255,255,255, .4)",
     position: "relative",
   },
