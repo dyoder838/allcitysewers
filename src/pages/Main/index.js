@@ -148,7 +148,7 @@ export default function MainPage() {
 
                     <div className={classes.articleHeader} >
 
-                        <Typography variant="h4">Serving: Seattle, Tacoma, and Everett areas</Typography>
+                        <Typography variant="h4">Serving: Seattle, Tacoma, East Side, and Everett Area</Typography>
 
                     </div>
 
