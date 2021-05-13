@@ -13,7 +13,6 @@ const useStyles = makeStyles({
   root: {
     width: '100%',
     backgroundColor: 'white',
-  
   },
 });
 

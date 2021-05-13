@@ -1,7 +1,7 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import CustomStyles from './style.module.css';
-import Logo from '../../assets/acsrlogo1.jpg'
+import Logo from '../../assets/ACSRLogo2.png'
 
 export default function SimplePaper() {
 
