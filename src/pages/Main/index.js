@@ -56,15 +56,6 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: 'rgba(0, 0, 0, 0.6)',
         color: 'white',
     },
-    covidContainer: {
-        backgroundColor: 'rgba(76, 175, 80, 0.6)',
-        padding: '8px',
-        top: '2px',
-        bottom: '2px'
-    },
-    covid: {
-        textAlign: 'center',
-    },
     article1: {
         background: 'inherit',
         textAlign: 'center',
@@ -154,17 +145,7 @@ export default function MainPage() {
                     </div>
 
                 </Grid>
-                {/* <Grid item xs={12} className={classes.covidContainer} >
-
-                    <div className={classes.covid} >
-
-                        <Typography variant="h5">We take Covid-19 serious and provide all PPE to our technicians.</Typography>
-
-                    </div>
-
-                </Grid> */}
-
-
+    
                 <Grid item xs={12} md={6} lg={6} className={classes.article1}>
 
                     <Card className={classes.card1}>
@@ -302,7 +283,7 @@ export default function MainPage() {
 
                     <div className={classes.yelp} >
 
-                        <Typography variant="h4">See What Our Customers Have To Say</Typography>
+                        <Typography variant="h5" component="h2">See What Our Customers Have To Say</Typography>
 
                     </div>
 

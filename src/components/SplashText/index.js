@@ -9,17 +9,17 @@ export default function SimplePaper() {
             <div className={CustomStyles.text}>
                 <img alt='company logo' src={Logo} className={CustomStyles.image}></img>
                 <br />
-                <Typography variant="p">Call for a Consultation</Typography>
-                <br />
-                <Typography component="a" color='inherit' variant="p" href="tel:+12065663528">1 (206) 566 3528</Typography>
-                <br />
-                <Typography variant="p">Or Text Us At</Typography>
-                <br />
-                <Typography component="a" color='inherit' variant="p" href="sms:+12065663528">1 (206) 566 3528</Typography>
-                <br />
-                <Typography variant="p">Licensed, Bonded & Insured</Typography>
-                <br />
-                <Typography variant="p">ALLCICS790KD</Typography>
+                <Typography component="p" variant='h4'>Call for a Consultation</Typography>
+                
+                <Typography component="a" variant='h4' color='inherit' href="tel:+12065663528">1 (206) 566 3528</Typography>
+             
+                <Typography component="p" variant='h4' >Or Text Us At</Typography>
+             
+                <Typography component="a" variant='h4' color='inherit' href="sms:+12065663528">1 (206) 566 3528</Typography>
+              
+                <Typography component="p" variant='h4' >Licensed, Bonded & Insured</Typography>
+             
+                <Typography component="p" variant='h4' >ALLCICS790KD</Typography>
             </div>
     );
 }
