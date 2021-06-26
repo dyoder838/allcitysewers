@@ -8,9 +8,14 @@ import SplashText from '../../components/SplashText'
 import Accordion from '../../components/Accordion2';
 import Footer from '../../components/Footer';
 import AccordionDb from '../../Accordion2.json';
+import ReactGA from 'react-ga';
 
-
-
+ReactGA.initialize('AW-382230630/ADn_CNPtwckCEObAobYB')
+ReactGA.event({
+    category: 'conversion', 
+    action: 'navigation',
+    nonInteraction: true,
+})
 const useStyles = makeStyles((theme) => ({
 
     root: {
@@ -79,6 +84,6 @@ export default function MainPage() {
             </Grid>
 
         </Grid>
-
+    
     )
 }
