@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import MainPage from './pages/Main';
 // import About from './pages/About';
 import Services from '../src/pages/Services'
@@ -14,14 +14,14 @@ function App() {
 
         <Router>       
 
-            <Switch>
+            <Routes>
 
-                <Route exact path="/" component={MainPage}></Route>
+                <Route exact path="/" element={<MainPage/>} />
                 {/* <Route exact path="/about" component={About}></Route> */}
-                <Route exact path="/services" component={Services}></Route>
+                <Route exact path="/services" element={<Services/>} />
 
             
-            </Switch>
+            </Routes>
 
         </Router>
 
